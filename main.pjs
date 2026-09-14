@@ -1,0 +1,11 @@
+$meta
+  title = Polymarket Edge AI — Sistem de Pronosticuri Inteligente
+  description = Dashboard live cu piețele Polymarket: estimări AI vs prețul pieței, valoare așteptată (EV), mărimea pariului după criteriul Kelly fracționar, scanner de edge pe piețe multiple și urmărirea portofoliului tău.
+  tags = polymarket, pronosticuri, piețe de predicție, analiză AI, expected value, kelly, edge betting
+  image = https://user.uploads.dev/file/e4f1d2df38df410683bcac20ed9be2e8.jpg
+  header
+    mode = minimal
+
+superFetch = {import:super-fetch-plugin}
+generateText = {import:ai-text-plugin}
+kv = {import:kv-plugin}
